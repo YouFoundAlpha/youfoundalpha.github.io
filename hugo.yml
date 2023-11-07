@@ -1,0 +1,4 @@
+baseURL: 'https://alpha.is-a.dev'
+languageCode: 'fi'
+title: 'YouFoundAlpha - Small Backend Developer'
+theme: ["hugo-redirect", "PaperMod"]
