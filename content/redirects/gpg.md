@@ -3,7 +3,7 @@
 # url to "/old_blog" and redirect_to to "/blog" below
 type = "redirect"
 url = "/gpg"
-redirect_to = "https://alpha.is-a.dev/key.gpg"
+redirect_to = "https://github.com/youfoundalpha.gpg"
 redirect_enabled = true
 private = false
 +++
