@@ -29,7 +29,7 @@ defaults:
 jobs:
   # Build job
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     env:
       HUGO_VERSION: 0.114.0
     steps:
@@ -67,7 +67,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     needs: build
     steps:
       - name: Deploy to GitHub Pages
