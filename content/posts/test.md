@@ -12,6 +12,7 @@ draft: false
 hidemeta: false
 comments: true
 description: "Desc Text."
+canonicalURL: "https://alpha.is-a.dev/posts/test"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
