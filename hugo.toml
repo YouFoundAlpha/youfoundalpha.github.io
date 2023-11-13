@@ -22,9 +22,6 @@ url = "https://alpha.is-a.dev/x"
 name = "twitch"
 url = "https://alpha.is-a.dev/twitch"
 [[params.socialIcons]]
-name = "kick"
-url = "https://alpha.is-a.dev/kick"
-[[params.socialIcons]]
 name = "pgpkey"
 url = "https://alpha.is-a.dev/gpg"
 [analytics.google]
