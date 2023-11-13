@@ -5,7 +5,7 @@ theme = ["hugo-redirect", "PaperMod"]
 
 [params.profileMode]
 enabled = true
-subtitle = "I code mostly in Node.JS"
+subtitle = "I code mostly in [Node.JS](https://nodejs.org/)"
 imageUrl = "https://avatars.githubusercontent.com/u/86548581?v=4"
 imageTitle = "My picture"
 imageWidth = 128
@@ -21,6 +21,9 @@ url = "https://alpha.is-a.dev/x"
 [[params.socialIcons]]
 name = "twitch"
 url = "https://alpha.is-a.dev/twitch"
+[[params.socialIcons]]
+name = "github"
+url = "https://alpha.is-a.dev/github"
 [[params.socialIcons]]
 name = "pgpkey"
 url = "https://alpha.is-a.dev/gpg"
