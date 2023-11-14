@@ -32,9 +32,6 @@ url = "https://alpha.is-a.dev/gpg"
 [[params.socialIcons]]
 name = "tiktok"
 url = "https://alpha.is-a.dev/tiktok"
-[params]
-  ShowShareButtons = true
-  ShareButtons: ["reddit", "twitter"]
 [params.assets]
   favicon = "https://alpha.is-a.dev/favicon.ico"
   favicon16x16 = "https://alpha.is-a.dev/favicon-16x16.png"
