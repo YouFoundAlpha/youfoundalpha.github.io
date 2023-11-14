@@ -8,8 +8,8 @@ enabled = true
 subtitle = "I code mostly in [Node.JS](https://nodejs.org/)"
 imageUrl = "https://avatars.githubusercontent.com/u/86548581?v=4"
 imageTitle = "My picture"
-imageWidth = 128
-imageHeight = 128
+imageWidth = 240
+imageHeight = 240
 [params]
 hideFooter = true
 defaultTheme = "dark"
@@ -17,7 +17,6 @@ disableThemeToggle = true
 [[params.socialIcons]]
 name = "x"
 url = "https://alpha.is-a.dev/x"
-
 [[params.socialIcons]]
 name = "twitch"
 url = "https://alpha.is-a.dev/twitch"
@@ -30,6 +29,15 @@ url = "mailto:alpha@alpha.is-a.dev"
 [[params.socialIcons]]
 name = "pgpkey"
 url = "https://alpha.is-a.dev/gpg"
+[params]
+  ShowShareButtons = true
+  ShareButtons: ["reddit", "twitter"]
+[params.assets]
+  favicon = "https://alpha.is-a.dev/favicon.ico"
+  favicon16x16 = "https://alpha.is-a.dev/favicon-16x16.png"
+  favicon32x32 = "https://alpha.is-a.dev/favicon-32x32.png"
+  apple_touch_icon = "https://alpha.is-a.dev/apple_touch_icon.png"
+  safari_pinned_tab = "https://alpha.is-a.dev/safari_pinned_tab.svg"
 [analytics.google]
 SiteVerificationTag = "BsDZvqMslxbaCC-BCMBj4mOyIbuAr2Oos4jECFJS5y8"
 
