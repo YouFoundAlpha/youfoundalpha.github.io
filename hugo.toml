@@ -25,6 +25,9 @@ url = "https://alpha.is-a.dev/twitch"
 name = "github"
 url = "https://alpha.is-a.dev/github"
 [[params.socialIcons]]
+name = "email"
+url = "mailto:alpha@alpha.is-a.dev"
+[[params.socialIcons]]
 name = "pgpkey"
 url = "https://alpha.is-a.dev/gpg"
 [analytics.google]
