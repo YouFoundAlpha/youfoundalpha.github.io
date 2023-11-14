@@ -15,23 +15,11 @@ hideFooter = true
 defaultTheme = "dark"
 disableThemeToggle = true
 [[params.socialIcons]]
-name = "x"
-url = "https://alpha.is-a.dev/x"
-[[params.socialIcons]]
-name = "twitch"
-url = "https://alpha.is-a.dev/twitch"
-[[params.socialIcons]]
-name = "github"
-url = "https://alpha.is-a.dev/github"
-[[params.socialIcons]]
 name = "email"
 url = "mailto:alpha@alpha.is-a.dev"
 [[params.socialIcons]]
 name = "pgpkey"
 url = "https://alpha.is-a.dev/gpg"
-[[params.socialIcons]]
-name = "tiktok"
-url = "https://alpha.is-a.dev/tiktok"
 [params.assets]
   favicon = "https://alpha.is-a.dev/favicon.ico"
   favicon16x16 = "https://alpha.is-a.dev/favicon-16x16.png"
