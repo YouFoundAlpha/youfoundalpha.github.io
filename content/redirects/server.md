@@ -3,7 +3,7 @@
 # url to "/old_blog" and redirect_to to "/blog" below
 type = "redirect"
 url = "/server"
-redirect_to = "https://unique-boa-careful.ngrok-free.app"
+redirect_to = "https://genuine-cicada-coherent.ngrok-free.app"
 redirect_enabled = true
 private = false
 +++
