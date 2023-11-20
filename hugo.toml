@@ -2,7 +2,7 @@ baseURL = 'https://alpha.is-a.dev'
 languageCode = 'fi'
 title = 'YouFoundAlpha'
 theme = ["hugo-redirect", "PaperMod"]
-
+description = 'Small backend developer'
 [params.profileMode]
 enabled = true
 subtitle = "I code mostly in [Node.JS](https://nodejs.org/)"
@@ -28,6 +28,10 @@ url = "https://alpha.is-a.dev/gpg"
   safari_pinned_tab = "https://alpha.is-a.dev/safari_pinned_tab.svg"
 [analytics.google]
 SiteVerificationTag = "BsDZvqMslxbaCC-BCMBj4mOyIbuAr2Oos4jECFJS5y8"
+[params.minify]
+    disableXML = true
+    minifyOutput = true
+
 
 
 
