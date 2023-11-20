@@ -6,7 +6,7 @@ theme = ["hugo-redirect", "PaperMod"]
 [params.profileMode]
 enabled = true
 subtitle = "I code mostly in [Node.JS](https://nodejs.org/)"
-imageUrl = "https://avatars.githubusercontent.com/u/86548581?v=4"
+imageUrl = "/pfp.png"
 imageTitle = "My picture"
 imageWidth = 240
 imageHeight = 240
