@@ -78,25 +78,9 @@ jobs:
         with:
           path: ${{ runner.temp }}/hugo.deb
           key: ${{ runner.os }}-hugo-${{ hashFiles('**/go.sum') }}
-        restore-keys: |
-          ${{ runner.os }}-hugo-
 
       - name: Cache Node.js dependencies
         uses: actions/cache@v2
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-node-
-
-  # Deployment job
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
