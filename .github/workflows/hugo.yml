@@ -61,6 +61,21 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
+          - name: Cache Hugo dependencies
+      uses: actions/cache@v2
+      with:
+        path: ${{ runner.temp }}/hugo.deb
+        key: ${{ runner.os }}-hugo-${{ hashFiles('**/go.sum') }}
+        restore-keys: |
+          ${{ runner.os }}-hugo-
+
+    - name: Cache Node.js dependencies
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
 
   # Deployment job
   deploy:
