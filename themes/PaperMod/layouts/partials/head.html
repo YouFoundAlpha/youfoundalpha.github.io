@@ -35,6 +35,9 @@
 {{- if site.Params.analytics.naver.SiteVerificationTag }}
 <meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
 {{- end }}
+{{- if site.Params.ogimage }}
+<meta property="og:image" content="{{ site.Params.ogimage }}">
+{{- end }}
 
 {{- /* Styles */}}
 
