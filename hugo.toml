@@ -15,7 +15,6 @@ hideFooter = true
 defaultTheme = "dark"
 disableThemeToggle = true
 description = 'Small backend developer'
-ogimage = 'https://avatars.githubusercontent.com/u/86548581'
 [[params.socialIcons]]
 name = "email"
 url = "mailto:alpha@alpha.is-a.dev"
