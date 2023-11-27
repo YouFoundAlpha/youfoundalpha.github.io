@@ -35,8 +35,17 @@
 {{- if site.Params.analytics.naver.SiteVerificationTag }}
 <meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
 {{- end }}
-{{- if site.Params.ogimage }}
-<meta property="og:image" content="{{ site.Params.ogimage }}">
+{{- if site.Params }}
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://alpha.is-a.dev">
+<meta property="og:title" content="YouFoundAlpha">
+<meta property="og:description" content="Small backend developer">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/86548581">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://alpha.is-a.dev">
+<meta property="twitter:title" content="YouFoundAlpha">
+<meta property="twitter:description" content="Small backend developer">
+<meta property="twitter:image" content="https://avatars.githubusercontent.com/u/86548581">
 {{- end }}
 
 {{- /* Styles */}}
