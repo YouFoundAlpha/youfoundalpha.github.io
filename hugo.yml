@@ -29,6 +29,10 @@ socialIcons:
     url: 'mailto:alpha@alpha.is-a.dev'
   - name: 'pgpkey'
     url: 'https://alpha.is-a.dev/gpg'
+  - name: 'gitlab'
+    url: 'https://alpha.is-a.dev/gl'
+  - name: 'githab'
+    url: 'https://alpha.is-a.dev/gh'
 
 social:
   twitter:
