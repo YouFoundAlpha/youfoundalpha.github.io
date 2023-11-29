@@ -30,7 +30,7 @@ image = "https://avatars.githubusercontent.com/u/86548581"
 [social.og]
 type = "website"
 url = "https://alpha.is-a.dev"
-title = YouFoundAlpha"
+title = "YouFoundAlpha"
 description = "Small backend developer"
 image = "https://avatars.githubusercontent.com/u/86548581"
 [params.assets]
