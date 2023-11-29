@@ -35,17 +35,19 @@
 {{- if site.Params.analytics.naver.SiteVerificationTag }}
 <meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
 {{- end }}
-{{- if site.Params }}
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://alpha.is-a.dev">
-<meta property="og:title" content="YouFoundAlpha">
-<meta property="og:description" content="Small backend developer">
-<meta property="og:image" content="https://avatars.githubusercontent.com/u/86548581">
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://alpha.is-a.dev">
-<meta property="twitter:title" content="YouFoundAlpha">
-<meta property="twitter:description" content="Small backend developer">
-<meta property="twitter:image" content="https://avatars.githubusercontent.com/u/86548581">
+{{- if site.Params.social.twitter }}
+<meta property="twitter:card" content="{{ site.Params.social.twitter.card }}">
+<meta property="twitter:url" content="{{ site.Params.social.twitter.url }}">
+<meta property="twitter:title" content="{{ site.Params.social.twitter.title }}">
+<meta property="twitter:description" content="{{ site.Params.social.twitter.description }}">
+<meta property="twitter:image" content="{{ site.Params.social.twitter.image }}">
+{{- end }}
+{{- if site.Params.social.og }}
+<meta property="og:type" content="{{ site.Params.social.og.type }}">
+<meta property="og:url" content="{{ site.Params.social.og.url }}">
+<meta property="og:title" content="{{ site.Params.social.og.title }}">
+<meta property="og:description" content="{{ site.Params.social.og.description }}">
+<meta property="og:image" content="{{ site.Params.social.og.image }}">
 {{- end }}
 
 {{- /* Styles */}}

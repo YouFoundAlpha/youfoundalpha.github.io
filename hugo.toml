@@ -21,6 +21,18 @@ url = "mailto:alpha@alpha.is-a.dev"
 [[params.socialIcons]]
 name = "pgpkey"
 url = "https://alpha.is-a.dev/gpg"
+[social.twitter]
+card = "summary_large_image"
+url = "https://alpha.is-a.dev"
+title = "YouFoundAlpha"
+description = "Small backend developer"
+image = "https://avatars.githubusercontent.com/u/86548581"
+[social.og]
+type = "website"
+url = "https://alpha.is-a.dev"
+title = YouFoundAlpha"
+description = "Small backend developer"
+image = "https://avatars.githubusercontent.com/u/86548581"
 [params.assets]
   favicon = "https://alpha.is-a.dev/favicon.ico"
   favicon16x16 = "https://alpha.is-a.dev/favicon-16x16.png"
