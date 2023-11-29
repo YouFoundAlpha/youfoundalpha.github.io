@@ -40,8 +40,6 @@ image = "https://avatars.githubusercontent.com/u/86548581"
   favicon32x32 = "https://alpha.is-a.dev/favicon-32x32.png"
   apple_touch_icon = "https://alpha.is-a.dev/apple_touch_icon.png"
   safari_pinned_tab = "https://alpha.is-a.dev/safari_pinned_tab.svg"
-[analytics.google]
-SiteVerificationTag = "K6i2mlq9VlR56vVe6ULpkuqsoKlIDORPYJ6uVjH3iz8"
 [params.minify]
     disableXML = true
     minifyOutput = true
