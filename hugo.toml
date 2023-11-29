@@ -26,7 +26,7 @@ name = "github"
 url = "https://github.com/YouFoundAlpha"
 [[params.socialIcons]]
 name = "pgpkey"
-url = "https://cdn-a12.pages.dev/web/static/key.asc
+url = "https://cdn-a12.pages.dev/web/static/key.asc"
 [social.twitter]
 card = "summary_large_image"
 url = "https://alpha.is-a.dev"
