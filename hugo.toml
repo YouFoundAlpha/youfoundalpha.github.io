@@ -41,7 +41,7 @@ image = "https://avatars.githubusercontent.com/u/86548581"
   apple_touch_icon = "https://alpha.is-a.dev/apple_touch_icon.png"
   safari_pinned_tab = "https://alpha.is-a.dev/safari_pinned_tab.svg"
 [analytics.google]
-SiteVerificationTag = "BsDZvqMslxbaCC-BCMBj4mOyIbuAr2Oos4jECFJS5y8"
+SiteVerificationTag = "K6i2mlq9VlR56vVe6ULpkuqsoKlIDORPYJ6uVjH3iz8"
 [params.minify]
     disableXML = true
     minifyOutput = true
