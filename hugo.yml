@@ -28,11 +28,11 @@ socialIcons:
   - name: 'email'
     url: 'mailto:alpha@alpha.is-a.dev'
   - name: 'pgpkey'
-    url: 'https://alpha.is-a.dev/gpg'
+    url: 'https://alpha.is-a.dev/key.asc'
   - name: 'gitlab'
-    url: 'https://alpha.is-a.dev/gl'
+    url: 'https://gitlab.com/YouFoundAlpha'
   - name: 'github'
-    url: 'https://alpha.is-a.dev/gh'
+    url: 'https://github.com/YouFoundAlpha'
 
 social:
   twitter:
