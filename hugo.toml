@@ -15,7 +15,10 @@ hideFooter = true
 defaultTheme = "dark"
 disableThemeToggle = true
 description = 'Small backend developer'
+enableRobotsTXT = true
 env = "production"
+[analytics.google]
+SiteVerificationTag = "K6i2mlq9VlR56vVe6ULpkuqsoKlIDORPYJ6uVjH3iz8"
 [[params.socialIcons]]
 name = "email"
 url = "mailto:alpha@alpha.is-a.dev"
