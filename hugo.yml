@@ -25,10 +25,6 @@ analytics:
         SiteVerificationTag: "K6i2mlq9VlR56vVe6ULpkuqsoKlIDORPYJ6uVjH3iz8"
 
 socialIcons:
-  - name: 'email'
-    url: 'mailto:alpha@alpha.is-a.dev'
-  - name: 'pgpkey'
-    url: 'https://alpha.is-a.dev/key.asc'
   - name: 'gitlab'
     url: 'https://gitlab.com/YouFoundAlpha'
   - name: 'github'
