@@ -36,13 +36,13 @@ social:
     url: 'https://alpha.is-a.dev'
     title: 'YouFoundAlpha'
     description: 'Small backend developer'
-    image: 'https://avatars.githubusercontent.com/u/86548581'
+    image: 'https://alpha.is-a.dev/pfp.png'
   og:
     type: 'website'
     url: 'https://alpha.is-a.dev'
     title: 'YouFoundAlpha'
     description: 'Small backend developer'
-    image: 'https://avatars.githubusercontent.com/u/86548581'
+    image: 'https://alpha.is-a.dev/pfp.png'
 
 assets:
   favicon: 'https://alpha.is-a.dev/favicon.ico'
