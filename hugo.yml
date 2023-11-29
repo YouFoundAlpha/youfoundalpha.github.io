@@ -21,8 +21,8 @@ params:
   env: 'production'
 
 analytics:
-  google:
-    SiteVerificationTag: "K6i2mlq9VlR56vVe6ULpkuqsoKlIDORPYJ6uVjH3iz8"
+    google:
+        SiteVerificationTag: "K6i2mlq9VlR56vVe6ULpkuqsoKlIDORPYJ6uVjH3iz8"
 
 socialIcons:
   - name: 'email'
