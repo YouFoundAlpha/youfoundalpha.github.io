@@ -6,7 +6,7 @@ env = "production"
 [params.profileMode]
 enabled = true
 subtitle = "I code mostly in [Node.JS](https://nodejs.org/)"
-imageUrl = "/pfp.png"
+imageUrl = "https://cdn-a12.pages.dev/pfp.png"
 imageTitle = "My picture"
 imageWidth = 240
 imageHeight = 240
@@ -29,19 +29,19 @@ card = "summary_large_image"
 url = "https://alpha.is-a.dev"
 title = "YouFoundAlpha"
 description = "Small backend developer"
-image = "https://avatars.githubusercontent.com/u/86548581"
+image = "https://cdn-a12.pages.dev/pfp.png"
 [social.og]
 type = "website"
 url = "https://alpha.is-a.dev"
 title = "YouFoundAlpha"
 description = "Small backend developer"
-image = "https://avatars.githubusercontent.com/u/86548581"
+image = "https://cdn-a12.pages.dev/pfp.png"
 [params.assets]
-  favicon = "https://alpha.is-a.dev/favicon.ico"
-  favicon16x16 = "https://alpha.is-a.dev/favicon-16x16.png"
-  favicon32x32 = "https://alpha.is-a.dev/favicon-32x32.png"
-  apple_touch_icon = "https://alpha.is-a.dev/apple_touch_icon.png"
-  safari_pinned_tab = "https://alpha.is-a.dev/safari_pinned_tab.svg"
+  favicon = "https://cdn-a12.pages.dev/favicon.ico"
+  favicon16x16 = "https://cdn-a12.pages.dev/favicon-16x16.png"
+  favicon32x32 = "https://cdn-a12.pages.dev/favicon-32x32.png"
+  apple_touch_icon = "https://cdn-a12.pages.dev/apple_touch_icon.png"
+  safari_pinned_tab = "https://cdn-a12.pages.dev/safari_pinned_tab.svg"
 [params.minify]
     disableXML = true
     minifyOutput = true
