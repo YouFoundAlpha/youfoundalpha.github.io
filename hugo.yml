@@ -31,7 +31,7 @@ socialIcons:
     url: 'https://alpha.is-a.dev/gpg'
   - name: 'gitlab'
     url: 'https://alpha.is-a.dev/gl'
-  - name: 'githab'
+  - name: 'github'
     url: 'https://alpha.is-a.dev/gh'
 
 social:
