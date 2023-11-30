@@ -41,7 +41,6 @@ url = "https://cdn-a12.pages.dev/web/static/key.asc"
 [[params.socialIcons]]
 name = "discord"
 url = "https://discord.com/users/661121998830960651"
-
 [social.twitter]
 card = "summary_large_image"
 url = "https://alpha.is-a.dev"
