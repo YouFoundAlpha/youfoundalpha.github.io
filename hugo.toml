@@ -1,6 +1,6 @@
 baseURL = 'https://alpha.is-a.dev'
 languageCode = 'fi'
-title = 'Alpha'
+title = 'YouFoundAlpha'
 theme = "PaperMod"
 [params.profileMode]
 enabled = true
