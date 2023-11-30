@@ -15,6 +15,9 @@ defaultTheme = "dark"
 disableThemeToggle = true
 description = 'Small backend developer'
 enableRobotsTXT = true
+env = "production"
+author = "YouFoundAlpha"
+images = ["https://media.istockphoto.com/id/146882475/photo/exploding-keyboard.jpg?s=612x612&w=0&k=20&c=27Z1Lw5K3UZDrhjat0W8iEhMkwWAI7Y6VyTHs7R6XaM="]
 [params.analytics.google]
 SiteVerificationTag = "K6i2mlq9VlR56vVe6ULpkuqsoKlIDORPYJ6uVjH3iz8"
 [[params.socialIcons]]
@@ -41,18 +44,6 @@ url = "https://cdn-a12.pages.dev/web/static/key.asc"
 [[params.socialIcons]]
 name = "discord"
 url = "https://discord.com/users/661121998830960651"
-[social.twitter]
-card = "summary_large_image"
-url = "https://alpha.is-a.dev"
-title = "YouFoundAlpha"
-description = "Small backend developer"
-image = "https://media.istockphoto.com/id/146882475/photo/exploding-keyboard.jpg?s=612x612&w=0&k=20&c=27Z1Lw5K3UZDrhjat0W8iEhMkwWAI7Y6VyTHs7R6XaM="
-[social.og]
-type = "website"
-url = "https://alpha.is-a.dev"
-title = "YouFoundAlpha"
-description = "Small backend developer"
-image = "https://media.istockphoto.com/id/146882475/photo/exploding-keyboard.jpg?s=612x612&w=0&k=20&c=27Z1Lw5K3UZDrhjat0W8iEhMkwWAI7Y6VyTHs7R6XaM="
 [params.assets]
   favicon = "https://cdn-a12.pages.dev/web/icons/favicon.ico"
   favicon16x16 = "https://cdn-a12.pages.dev/web/icons/favicon-16x16.png"
