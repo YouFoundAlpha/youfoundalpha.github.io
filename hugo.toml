@@ -1,6 +1,6 @@
 baseURL = 'https://alpha.is-a.dev'
 languageCode = 'fi'
-title = 'YouFoundAlpha'
+title = 'Alpha'
 theme = "PaperMod"
 [params.profileMode]
 enabled = true
@@ -40,7 +40,10 @@ name = "email"
 url = "mailto:alpha@alpha.is-a.dev"
 [[params.socialIcons]]
 name = "key"
-url = "https://cdn-a12.pages.dev/web/static/key.asc"
+url = "https://github.com/YouFoundAlpha.gpg"
+[[params.socialIcons]]
+name = "steam"
+url = "https://steamcommunity.com/id/YouFoundAlpha/"
 [[params.socialIcons]]
 name = "discord"
 url = "https://discord.com/users/661121998830960651"
