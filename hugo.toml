@@ -24,6 +24,18 @@ url = "https://gitlab.com/YouFoundAlpha"
 name = "github"
 url = "https://github.com/YouFoundAlpha"
 [[params.socialIcons]]
+name = "x"
+url = "https://x.com/YouFoundAlpha"
+[[params.socialIcons]]
+name = "youtube"
+url = "https://youtube.com/@YouFoundAlpha"
+[[params.socialIcons]]
+name = "mastodon"
+url = "https://technodon.social/@YouFoundAlpha"
+[[params.socialIcons]]
+name = "email"
+url = "mailto:alpha@alpha.is-a.dev"
+[[params.socialIcons]]
 name = "pgpkey"
 url = "https://cdn-a12.pages.dev/web/static/key.asc"
 [social.twitter]
