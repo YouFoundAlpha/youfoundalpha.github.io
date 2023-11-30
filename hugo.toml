@@ -1,7 +1,7 @@
 baseURL = 'https://alpha.is-a.dev'
 languageCode = 'fi'
 title = 'YouFoundAlpha'
-theme = ["hugo-redirect", "PaperMod"]
+theme = "PaperMod"
 [params.profileMode]
 enabled = true
 subtitle = "I code mostly in [Node.JS](https://nodejs.org/)"
