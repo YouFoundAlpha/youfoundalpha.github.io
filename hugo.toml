@@ -31,7 +31,7 @@ name = "youtube"
 url = "https://youtube.com/@YouFoundAlpha"
 [[params.socialIcons]]
 name = "mastodon"
-url = "https://technodon.social/@YouFoundAlpha"
+url = "https://mastodon.social/@YouFoundAlpha"
 [[params.socialIcons]]
 name = "email"
 url = "mailto:alpha@alpha.is-a.dev"
