@@ -5,7 +5,7 @@ theme = "PaperMod"
 [params.profileMode]
 enabled = true
 subtitle = "I code mostly in [Node.JS](https://nodejs.org/)"
-imageUrl = "https://cdn-a12.pages.dev/web/icons/pfp.png"
+imageUrl = "https.//cdn.yfa.is-a.dev/web/icons/pfp.png"
 imageTitle = "My picture"
 imageWidth = 240
 imageHeight = 240
@@ -17,7 +17,7 @@ description = 'Small backend developer'
 enableRobotsTXT = true
 env = "production"
 author = "YouFoundAlpha"
-images = ["https://cdn-a12.pages.dev/web/icons/pfp.png"]
+images = ["https.//cdn.yfa.is-a.dev/web/icons/pfp.png"]
 [params.analytics.google]
 SiteVerificationTag = "K6i2mlq9VlR56vVe6ULpkuqsoKlIDORPYJ6uVjH3iz8"
 [[params.socialIcons]]
@@ -48,11 +48,11 @@ url = "https://steamcommunity.com/id/YouFoundAlpha/"
 name = "discord"
 url = "https://discord.com/users/661121998830960651"
 [params.assets]
-favicon = "https://cdn-a12.pages.dev/web/icons/favicon.ico"
-favicon16x16 = "https://cdn-a12.pages.dev/web/icons/favicon-16x16.png"
-favicon32x32 = "https://cdn-a12.pages.dev/web/icons/favicon-32x32.png"
-apple_touch_icon = "https://cdn-a12.pages.dev/web/icons/apple_touch_icon.png"
-safari_pinned_tab = "https://cdn-a12.pages.dev/web/icons/safari_pinned_tab.svg"
+favicon = "https.//cdn.yfa.is-a.dev/web/icons/favicon.ico"
+favicon16x16 = "https.//cdn.yfa.is-a.dev/web/icons/favicon-16x16.png"
+favicon32x32 = "https.//cdn.yfa.is-a.dev/web/icons/favicon-32x32.png"
+apple_touch_icon = "https.//cdn.yfa.is-a.dev/web/icons/apple_touch_icon.png"
+safari_pinned_tab = "https.//cdn.yfa.is-a.dev/web/icons/safari_pinned_tab.svg"
 [params.minify]
 disableXML = true
 minifyOutput = true
