@@ -4,7 +4,7 @@ title = 'YouFoundAlpha'
 theme = "PaperMod"
 [params.profileMode]
 enabled = true
-subtitle = "I code mostly in [Node.JS](https://nodejs.org/)"
+subtitle = "Backend developer"
 imageUrl = "https://cdn.yfa.is-a.dev/web/icons/pfp.png"
 imageTitle = "My picture"
 imageWidth = 240
