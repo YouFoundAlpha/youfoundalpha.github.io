@@ -44,6 +44,9 @@ url = "mailto:alpha@alpha.is-a.dev"
 name = "key"
 url = "https://github.com/YouFoundAlpha.gpg"
 [[params.socialIcons]]
+name = "ssh"
+url = "https://github.com/YouFoundAlpha.keys"
+[[params.socialIcons]]
 name = "steam"
 url = "https://steamcommunity.com/id/YouFoundAlpha/"
 [[params.socialIcons]]
