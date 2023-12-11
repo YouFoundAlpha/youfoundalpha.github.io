@@ -35,6 +35,9 @@
 {{- if site.Params.analytics.naver.SiteVerificationTag }}
 <meta name="naver-site-verification" content="{{ site.Params.analytics.naver.SiteVerificationTag }}">
 {{- end }}
+{{- if site.Params.analytics.is-a-dev.siteurl }}
+<script defer data-domain="{{ site.Params.analytics.is-a-dev.siteurl }}" src="https://analytics.is-a.dev/js/script.js"></script>
+{{- end }}
 
 {{- /* Styles */}}
 

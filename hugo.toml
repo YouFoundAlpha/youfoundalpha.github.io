@@ -20,6 +20,8 @@ author = "YouFoundAlpha"
 images = ["https://cdn.yfa.is-a.dev/web/icons/pfp.png"]
 [params.analytics.google]
 SiteVerificationTag = "K6i2mlq9VlR56vVe6ULpkuqsoKlIDORPYJ6uVjH3iz8"
+[params.analytics.is-a-dev]
+siteurl = "alpha.is-a.dev"
 [[params.socialIcons]]
 name = "gitlab"
 url = "https://gitlab.com/YouFoundAlpha"
