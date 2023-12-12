@@ -6,13 +6,19 @@
 const tect = document.getElementById("status") 
 if(status === "online"){
     document.getElementById('pfp').style.border = "5px solid rgb(0, 255, 0)"
+    document.getElementById('pfp').style.border = "5px solid rgb(0, 255, 0)"
 } else if(status === "idle") {
     document.getElementById('pfp').style.border = "5px solid rgb(255, 255, 0)"
+    document.getElementById('pfp').style.boxShadow = 'inset 0px 0px 40px 40px rgb(255, 255, 0)'
 } else if(status === "dnd") {
     document.getElementById('pfp').style.border = "5px solid rgb(255, 0, 0)"
+    document.getElementById('pfp').style.boxShadow = 'inset 0px 0px 40px 40px rgb(255, 0, 0)'
 } else if(status === "offline") {
+    document.getElementById('pfp').style.boxShadow = 'inset 0px 0px 40px 40px rgb(255, 0, 255)'
     document.getElementById('pfp').style.border = "5px solid rgb(255, 0, 255)"
+
 } else if(status === "invisible") {
     document.getElementById('pfp').style.border = "5px solid rgb(255, 0, 255)"
+    document.getElementById('pfp').style.boxShadow = 'inset 0px 0px 40px 40px rgb(255, 0, 255)'
 }
 })();
