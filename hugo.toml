@@ -4,7 +4,6 @@ title = 'YouFoundAlpha'
 theme = "PaperMod"
 [params.profileMode]
 enabled = true
-subtitle = "Backend developer"
 imageUrl = "https://cdn.yfa.is-a.dev/web/icons/pfp.png"
 imageTitle = "My picture"
 imageWidth = 240
@@ -13,7 +12,7 @@ imageHeight = 240
 hideFooter = true
 defaultTheme = "dark"
 disableThemeToggle = true
-description = 'Small backend developer'
+description = 'Backend developer'
 enableRobotsTXT = true
 env = "production"
 author = "YouFoundAlpha"
