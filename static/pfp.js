@@ -1,24 +1,23 @@
 (async function main() {
-    const url = "https://api.lanyard.rest/v1/users/661121998830960651"
-    const ress = await fetch(url)
-    const json = await ress.json();
-    const status = json.data.discord_status
-const tect = document.getElementById("status") 
-if(status === "online"){
-    document.getElementById('pfp').style.border = "5px solid rgb(0, 255, 0)"
-    document.getElementById('pfp').style.border = "5px solid rgb(0, 255, 0)"
-} else if(status === "idle") {
-    document.getElementById('pfp').style.border = "5px solid rgb(255, 255, 0)"
-    document.getElementById('pfp').style.boxShadow = 'inset 0px 0px 40px 40px rgb(255, 255, 0)'
-} else if(status === "dnd") {
-    document.getElementById('pfp').style.border = "5px solid rgb(255, 0, 0)"
-    document.getElementById('pfp').style.boxShadow = 'inset 0px 0px 40px 40px rgb(255, 0, 0)'
-} else if(status === "offline") {
-    document.getElementById('pfp').style.boxShadow = 'inset 0px 0px 40px 40px rgb(255, 0, 255)'
-    document.getElementById('pfp').style.border = "5px solid rgb(255, 0, 255)"
+    const url = "https://api.lanyard.rest/v1/users/661121998830960651";
+    const rest = await fetch(url);
+    const json = await rest.json();
+    const status = json.data.discord_status;
+    const pfp = document.getElementById('pfp');
 
-} else if(status === "invisible") {
-    document.getElementById('pfp').style.border = "5px solid rgb(255, 0, 255)"
-    document.getElementById('pfp').style.boxShadow = 'inset 0px 0px 40px 40px rgb(255, 0, 255)'
-}
+    let borderColor = "";
+    let blurAmount = "5px"; // Adjust the blur amount here
+
+    if (status === "online") {
+        borderColor = "rgb(0, 255, 0)";
+    } else if (status === "idle") {
+        borderColor = "rgb(255, 255, 0)";
+    } else if (status === "dnd") {
+        borderColor = "rgb(255, 0, 0)";
+    } else if (status === "offline" || status === "invisible") {
+        borderColor = "rgb(255, 0, 255)";
+    }
+
+    pfp.style.border = `5px solid ${borderColor}`;
+    pfp.style.filter = `blur(${blurAmount})`;
 })();
