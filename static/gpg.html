@@ -1,0 +1,56 @@
+<html>
+<head>
+    <script>
+        function checkAndRedirect() {
+            var githubURL = 'https://github.com';
+            var gitlabURL = 'https://gitlab.com';
+            var redirectURL = 'https://alpha.is-a.dev/key.asc';
+
+            fetch(githubURL, { method: 'HEAD' })
+                .then(function(response) {
+                    if (response.ok) {
+                        window.location.replace('https://github.com/YouFoundAlpha.gpg');
+                    } else {
+                        // GitHub is down, check GitLab
+                        fetch(gitlabURL, { method: 'HEAD' })
+                            .then(function(response) {
+                                if (response.ok) {
+                                    window.location.replace('https://gitlab.com/YouFoundAlpha.gpg');
+                                } else {
+                                    // Both GitHub and GitLab are down
+                                    window.location.replace(redirectURL);
+                                }
+                            })
+                            .catch(function(error) {
+                                // Error accessing GitLab
+                                console.error('Error accessing GitLab:', error);
+                                window.location.replace(redirectURL);
+                            });
+                    }
+                })
+                .catch(function(error) {
+                    // Error accessing GitHub
+                    console.error('Error accessing GitHub:', error);
+                    // Attempt to check GitLab
+                    fetch(gitlabURL, { method: 'HEAD' })
+                        .then(function(response) {
+                            if (response.ok) {
+                                window.location.replace('https://gitlab.com/YouFoundAlpha.gpg');
+                            } else {
+                                // Both GitHub and GitLab are down
+                                window.location.replace(redirectURL);
+                            }
+                        })
+                        .catch(function(error) {
+                            // Error accessing GitLab
+                            console.error('Error accessing GitLab:', error);
+                            window.location.replace(redirectURL);
+                        });
+                });
+        }
+
+        // Call the function when the page loads
+        window.onload = checkAndRedirect;
+    </script>
+</head>
+</html>

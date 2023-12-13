@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: /489.html
+Disallow: 
 Sitemap: https://alpha.is-a.dev/sitemap.xml
