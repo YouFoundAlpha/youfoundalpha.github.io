@@ -4,7 +4,6 @@
     const json = await rest.json();
     const status = json.data.discord_status;
     const pfp = document.getElementById('pfp');
-    const borderOverlay = document.createElement('div'); // Create a div for the border
 
     let borderColor = "";
     let blurAmount = "5px"; // Adjust the blur amount here
@@ -19,15 +18,30 @@
         borderColor = "rgb(255, 0, 255)";
     }
 
-    // Apply styles to the border overlay
-    borderOverlay.style.position = 'absolute';
-    borderOverlay.style.top = '0';
-    borderOverlay.style.left = '0';
-    borderOverlay.style.width = '100%';
-    borderOverlay.style.height = '100%';
-    borderOverlay.style.border = `5px solid ${borderColor}`;
-    borderOverlay.style.filter = `blur(${blurAmount})`;
+    // Apply styles to create a bordered effect without affecting the image
+    pfp.style.position = 'relative';
+    pfp.style.overflow = 'hidden';
+    pfp.style.border = 'none'; // Remove any existing border
+    pfp.style.padding = '0'; // Remove any padding that might interfere
 
-    // Append the border overlay to the profile picture container
-    pfp.appendChild(borderOverlay);
+    const borderDiv = document.createElement('div');
+    borderDiv.style.position = 'absolute';
+    borderDiv.style.top = '0';
+    borderDiv.style.left = '0';
+    borderDiv.style.width = '100%';
+    borderDiv.style.height = '100%';
+    borderDiv.style.boxSizing = 'border-box';
+    borderDiv.style.border = `5px solid ${borderColor}`;
+    borderDiv.style.filter = `blur(${blurAmount})`;
+    borderDiv.style.pointerEvents = 'none'; // Ensure clicks pass through the border
+
+    // Create a wrapper div for the image to exclude it from the blur effect
+    const imgWrapper = document.createElement('div');
+    imgWrapper.style.position = 'relative';
+    imgWrapper.style.zIndex = '1'; // Ensure the image stays above the border
+    imgWrapper.appendChild(pfp.querySelector('img')); // Append the image element
+
+    // Append the elements
+    pfp.appendChild(borderDiv);
+    pfp.appendChild(imgWrapper);
 })();

@@ -1,7 +1,7 @@
 baseURL = 'https://alpha.is-a.dev'
 languageCode = 'fi'
 title = 'YouFoundAlpha'
-theme = "PaperMod"
+theme = ["PaperMod", "hugo-redirect"]
 [params.profileMode]
 enabled = true
 imageUrl = "https://cdn.yfa.is-a.dev/web/icons/pfp.png"
