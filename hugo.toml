@@ -44,7 +44,7 @@ name = "key"
 url = "https://alpha.is-a.dev/gpg.html"
 [[params.socialIcons]]
 name = "ssh"
-url = "https://github.com/ssh.html"
+url = "https://alpha.is-a.dev/ssh.html"
 [[params.socialIcons]]
 name = "steam"
 url = "https://steamcommunity.com/id/YouFoundAlpha/"
