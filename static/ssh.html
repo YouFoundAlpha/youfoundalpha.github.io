@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
     <script>
@@ -6,45 +7,43 @@
             var gitlabURL = 'https://gitlab.com';
             var redirectURL = 'https://alpha.is-a.dev/keys.txt';
 
+            function redirectToKeys(keysURL) {
+                window.location.replace(keysURL);
+            }
+
+            function handleBothDown() {
+                window.location.replace(redirectURL);
+            }
+
             fetch(githubURL, { method: 'HEAD' })
                 .then(function(response) {
                     if (response.ok) {
-                        window.location.replace('https://github.com/YouFoundAlpha.keys');
+                        redirectToKeys('https://github.com/YouFoundAlpha.keys');
                     } else {
-                        // GitHub is down, check GitLab
                         fetch(gitlabURL, { method: 'HEAD' })
                             .then(function(response) {
                                 if (response.ok) {
-                                    window.location.replace('https://gitlab.com/YouFoundAlpha.keys');
+                                    redirectToKeys('https://gitlab.com/YouFoundAlpha.keys');
                                 } else {
-                                    // Both GitHub and GitLab are down
-                                    window.location.replace(redirectURL);
+                                    handleBothDown();
                                 }
                             })
-                            .catch(function(error) {
-                                // Error accessing GitLab
-                                console.error('Error accessing GitLab:', error);
-                                window.location.replace(redirectURL);
+                            .catch(function() {
+                                handleBothDown();
                             });
                     }
                 })
-                .catch(function(error) {
-                    // Error accessing GitHub
-                    console.error('Error accessing GitHub:', error);
-                    // Attempt to check GitLab
+                .catch(function() {
                     fetch(gitlabURL, { method: 'HEAD' })
                         .then(function(response) {
                             if (response.ok) {
-                                window.location.replace('https://gitlab.com/YouFoundAlpha.keys');
+                                redirectToKeys('https://gitlab.com/YouFoundAlpha.keys');
                             } else {
-                                // Both GitHub and GitLab are down
-                                window.location.replace(redirectURL);
+                                handleBothDown();
                             }
                         })
-                        .catch(function(error) {
-                            // Error accessing GitLab
-                            console.error('Error accessing GitLab:', error);
-                            window.location.replace(redirectURL);
+                        .catch(function() {
+                            handleBothDown();
                         });
                 });
         }
@@ -53,4 +52,7 @@
         window.onload = checkAndRedirect;
     </script>
 </head>
+<body>
+    <!-- Your HTML content here if needed -->
+</body>
 </html>
