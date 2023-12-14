@@ -4,7 +4,7 @@ title = 'YouFoundAlpha'
 theme = ["PaperMod", "hugo-redirect"]
 [params.profileMode]
 enabled = true
-imageUrl = "https://cdn.yfa.is-a.dev/web/icons/pfp.png"
+imageUrl = "https://cdn.yfa.is-a.dev/web/icons/pfp.jpg"
 imageTitle = "My picture"
 imageWidth = 240
 imageHeight = 240
