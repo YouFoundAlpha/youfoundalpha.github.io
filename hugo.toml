@@ -4,7 +4,7 @@ title = 'YouFoundAlpha'
 theme = ["PaperMod", "hugo-redirect"]
 [params.profileMode]
 enabled = true
-imageUrl = "https://cdn.yfa.is-a.dev/web/icons/pfp.jpg"
+imageUrl = "https://alpha.is-a.dev/pfp.jpg"
 imageTitle = "My picture"
 imageWidth = 240
 imageHeight = 240
@@ -16,7 +16,7 @@ description = 'Backend developer'
 enableRobotsTXT = true
 env = "production"
 author = "YouFoundAlpha"
-images = ["https://cdn.yfa.is-a.dev/web/icons/pfp.jpg"]
+images = ["https://alpha.is-a.dev/pfp.jpg"]
 [params.analytics.google]
 SiteVerificationTag = "K6i2mlq9VlR56vVe6ULpkuqsoKlIDORPYJ6uVjH3iz8"
 [[params.socialIcons]]
