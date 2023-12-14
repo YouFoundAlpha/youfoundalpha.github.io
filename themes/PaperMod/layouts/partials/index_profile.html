@@ -1,6 +1,29 @@
 <div class="profile">
     {{- with site.Params.profileMode }}
     <div class="profile_inner">
+        <script>
+            document.addEventListener('contextmenu', function(e) {
+  e.preventDefault();
+  document.onkeydown = (e) => {
+    if (e.key == 123) {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'I') {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'C') {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.shiftKey && e.key == 'J') {
+        e.preventDefault();
+    }
+    if (e.ctrlKey && e.key == 'U') {
+        e.preventDefault();
+    }
+};
+});
+
+        </script>
         {{- if .imageUrl -}}
         {{- $img := "" }}
         {{- if not (urls.Parse .imageUrl).IsAbs }}
