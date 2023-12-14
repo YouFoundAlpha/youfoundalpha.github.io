@@ -16,7 +16,7 @@ description = 'Backend developer'
 enableRobotsTXT = true
 env = "production"
 author = "YouFoundAlpha"
-images = ["https://cdn.yfa.is-a.dev/web/icons/pfp.png"]
+images = ["https://cdn.yfa.is-a.dev/web/icons/pfp.jpg"]
 [params.analytics.google]
 SiteVerificationTag = "K6i2mlq9VlR56vVe6ULpkuqsoKlIDORPYJ6uVjH3iz8"
 [params.analytics.isadev]
