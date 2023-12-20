@@ -19,36 +19,6 @@ author = "YouFoundAlpha"
 images = ["https://alpha.is-a.dev/pfp.jpg"]
 [params.analytics.google]
 SiteVerificationTag = "K6i2mlq9VlR56vVe6ULpkuqsoKlIDORPYJ6uVjH3iz8"
-[[params.socialIcons]]
-name = "gitlab"
-url = "https://gitlab.com/YouFoundAlpha"
-[[params.socialIcons]]
-name = "github"
-url = "https://github.com/YouFoundAlpha"
-[[params.socialIcons]]
-name = "x"
-url = "https://x.com/YouFoundAlpha"
-[[params.socialIcons]]
-name = "youtube"
-url = "https://youtube.com/@YouFoundAlpha"
-[[params.socialIcons]]
-name = "mastodon"
-url = "https://mastodon.social/@YouFoundAlpha"
-[[params.socialIcons]]
-name = "email"
-url = "mailto:alpha@alpha.is-a.dev"
-[[params.socialIcons]]
-name = "key"
-url = "https://alpha.is-a.dev/gpg.html"
-[[params.socialIcons]]
-name = "ssh"
-url = "https://alpha.is-a.dev/ssh.html"
-[[params.socialIcons]]
-name = "steam"
-url = "https://steamcommunity.com/id/YouFoundAlpha/"
-[[params.socialIcons]]
-name = "discord"
-url = "https://discord.com/users/661121998830960651"
 [params.assets]
 favicon = "https://cdn.yfa.is-a.dev/web/icons/favicon.ico"
 favicon16x16 = "https://cdn.yfa.is-a.dev/web/icons/favicon-16x16.png"
